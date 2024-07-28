@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Automator App</title>
+</head>
+<body>
+    <button id="openAutomatorApp" style="background-color: silver; color: black; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+        Anki
+    </button>
+
+    <script>
+        document.getElementById('openAutomatorApp').addEventListener('click', function() {
+            window.location.href = 'automator://Automatorapp';
+        });
+    </script>
+</body>
+</html>
